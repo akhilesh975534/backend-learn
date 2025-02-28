@@ -3,6 +3,7 @@ import { v4 as uuuidv4 } from "uuid";
 
 const getAccessBlog = async (req, res) => {
     const blog = await Blog;
+    console.log(blog,"++++++++++++++")
 
     if (!blog) {
         return res.status(400).json({ error: true, success: false, message: "Blog not found" })
