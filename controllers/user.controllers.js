@@ -3,7 +3,7 @@ const getUserDat = (req, res) => {
 }
 
 const createNewUser = (req, res) => {
-    return res.send("Create New User")
+    return res.send("!brejhbgfshdjb")
 }
 
 
